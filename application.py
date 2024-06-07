@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import streamlit as st
 import pandas as pd
 import sqlite3
@@ -78,3 +79,12 @@ if st.button('Show Data'):
         st.write(df)
     else:
         st.error('No data found. Please save some data first.')
+=======
+import streamlit as st
+
+st.latex(r'''
+    a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+    \sum_{k=0}^{n-1} ar^k =
+    a \left(\frac{1-r^{n}}{1-r}\right)
+    ''')
+>>>>>>> 132ccbfc89f999b6bf735e4669220b071b447e57
